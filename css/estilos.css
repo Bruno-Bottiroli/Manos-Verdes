@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Amaranth&family=Jost:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+        background-color: #4c7a34;
+       
+    }
+.logo{
+    width: 12%;
+    
+        
+    }
+    @media (max-width:470px) {
+        .logo{
+            display: none;
+        }
+
+    }
+h1{
+    font-family: 'Amaranth', sans-serif;
+    }
+
+    .verde{
+        background-color: #4c7a34;
+    }
+ 
+    .imagenheader {
+        width: 70%;
+        height: 70%;
+        @media (max-width: 570px){
+            
+        }
+    }
+    
+    .texttarj{
+        font-family: 'Jost', sans-serif;
+    }
+    .titins{
+        font-family: 'Amaranth', sans-serif;
+        color: #4c7a34;
+        }
+
+    .amaranth{
+        font-family: 'Amaranth', sans-serif;
+    }
+    .bg-gris{
+        background-color: #e3e1e1aa;
+    }
+    .textoin{
+        font-family: 'Jost', sans-serif;
+        width: 900px;
+       
+        @media screen and (max-width:600px) {
+           font-size: 1rem;
+           width: 500px;
+        }
+       
+       }
+       .textoga{
+        font-family: 'Jost', sans-serif;
+       }
+    .contenedorpoema{
+        display: flex;
+
+        .elemento{
+            margin: 10px;
+            text-align: left;
+            object-fit: contain;
+          }
+    }
+    
+        .textopoema{
+            
+            background-color: #aaaa;
+            width: 600px;
+           
+            .poemita{
+                width: 500px;
+                font-family: 'Aboreto', system-ui;
+                font-size: 1.6rem;
+            }
+
+            .autor{
+                width: 300px;
+                font-family: 'Aboreto', system-ui;
+                font-size: 1rem;
+            }
+        }
+        @media (max-width: 800px) {
+
+          .textopoema{
+            width: 600px;
+          }
+          
+
+          .poemita{
+            width: 400px;
+            font-size: 0.6rem;
+          }
+          .autor{
+            width: 270px;
+            font-size: 0.5rem;
+          }
+        }
+    
+        @media (max-width: 600px) {
+          .textin{
+            width: 500px;
+          }
+        }
+
+        @media (max-width: 700px) {
+          .imgin{
+          display: none;
+          
+        }
+      }
+      
+      .elemento{
+        margin: 10px;
+        
+        
+      }
+
+      .bg-naranja{
+        background-color: #ffa834;
+      }
+      
+      
+    
+    footer{
+        background-color: #4c7a34;
+
+        h3{
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        iframe{
+            display: inline-flex;
+            width: 30%;
+            height: 30%;
+            justify-content: end;
+            align-items: end;
+            flex-direction: row;
+        }
+
+        .iconosgrandes{
+            width: 40px;
+            width: 40px;
+            color: #ffffff;
+        }
+    }
+
+    
+.img {
+    width: 400px;
+    height: 400px;
+}
+
+.titulogaleria{
+    font-family: 'Amaranth', sans-serif;
+    color: #4c7a34;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.poem {
+    background-color: #808080;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.grid-container-galeria {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px 400px 400px 400px 400px;
+    gap: 10px;
+    justify-content: center;
+    
+    object-fit: contain;
+    max-width: auto;
+    max-height: auto;
+    grid-template-areas: 
+        "croton girasol suculentas"
+        "croton girasol hongos"
+        "florcactus trepadora hongos"
+        "pinchudo trepadora orquidea"
+        "pinchudo tricolor espinosa"
+        "zebra tricolor espinosa";
+    
+}
+@media (max-width: 1000px) {
+    .grid-container-galeria {
+        grid-template-columns: 230px 230px 230px;
+        grid-template-rows: 230px 230px 230px 230px 230px 230px;
+}
+}
+@media (max-width: 500px) {
+    .grid-container-galeria {
+        grid-template-columns: 120px 120px 120px;
+        grid-template-rows: 120px 120px 120px 120px 120px 120px;
+}
+}
+
+        .grid-item {
+            background-color: #ddd;
+            display: flex;
+    
+        }
+        
+          .croton{
+            grid-area: croton;
+          }
+          .girasol{
+            grid-area: girasol;
+          }
+          .suculentas{
+            grid-area: suculentas;
+          }
+          .florcactus{
+            grid-area: florcactus;
+          }
+          .trepadora{
+            grid-area: trepadora;
+          }
+          .hongos{
+            grid-area: hongos;
+          }
+          .orquidea{
+            grid-area: orquidea;
+          }
+          .pinchudo{
+            grid-area: pinchudo;
+          }
+          .espinosa{
+            grid-area: espinosa;
+          }
+          .tricolor{
+            grid-area: tricolor;
+          }
+          .zebra{
+            grid-area: zebra;
+          }
+    
+
+@media (max-width: 500px) {
+    .video{
+        width: 400px;
+        height: 250px;
+    }
+}
+
+
+  .imggran{
+    width: 350px;
+    height: auto;
+
+
+  }
