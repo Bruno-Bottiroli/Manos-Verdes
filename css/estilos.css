@@ -5,159 +5,84 @@
     margin: 0;
     padding: 0;
 }
-
-
+/*Breve aclaracion!!! de seguro hay varias clases que sean redundantes, pero hice mi mejor esfuerzo por ahora, avance mucho en el proyecto estando de vacaciones en el mar :(  Para la tercer preEntrega voy a arreglar a profundidad el tema clases, de todas formas esta mas prolijo que la anterior entrega*/
 header{
         background-color: #4c7a34;
-       
-    }
-.logo{
-    width: 12%;
-    
-        
-    }
-    @media (max-width:470px) {
-        .logo{
-            display: none;
-        }
+}
 
-    }
 h1{
     font-family: 'Amaranth', sans-serif;
-    }
+}
 
-    .verde{
-        background-color: #4c7a34;
-    }
+.verde{
+    background-color: #4c7a34;
+}
  
-    .imagenheader {
-        width: 70%;
-        height: 70%;
-        @media (max-width: 570px){
-            
-        }
+img{
+  max-width: 100%;
+} 
+.texttarj{
+    font-family: 'Jost', sans-serif;
+}
+.titins{
+    font-family: 'Amaranth', sans-serif;
+    color: #4c7a34;
     }
-    
-    .texttarj{
-        font-family: 'Jost', sans-serif;
-    }
-    .titins{
-        font-family: 'Amaranth', sans-serif;
-        color: #4c7a34;
-        }
 
-    .amaranth{
-        font-family: 'Amaranth', sans-serif;
-    }
-    .bg-gris{
-        background-color: #e3e1e1aa;
-    }
-    .textoin{
-        font-family: 'Jost', sans-serif;
-        width: 900px;
+.amaranth{
+    font-family: 'Amaranth', sans-serif;
+}
+.bg-gris{
+    background-color: #e3e1e1aa;
+}
+.textoin{
+    font-family: 'Jost', sans-serif;
        
-        @media screen and (max-width:600px) {
-           font-size: 1rem;
-           width: 500px;
-        }
-       
-       }
-       .textoga{
-        font-family: 'Jost', sans-serif;
-       }
-    .contenedorpoema{
-        display: flex;
+}
+.Jost{
+font-family: 'Jost', sans-serif;
+font-size: 1.05rem;
+}
 
-        .elemento{
-            margin: 10px;
-            text-align: left;
-            object-fit: contain;
-          }
-    }
+/*juro que apenas pueda arreglo el temita de los Jost jajaja*/
     
-        .textopoema{
-            
-            background-color: #aaaa;
-            width: 600px;
-           
-            .poemita{
-                width: 500px;
-                font-family: 'Aboreto', system-ui;
-                font-size: 1.6rem;
-            }
-
-            .autor{
-                width: 300px;
-                font-family: 'Aboreto', system-ui;
-                font-size: 1rem;
-            }
-        }
-        @media (max-width: 800px) {
-
-          .textopoema{
-            width: 600px;
-          }
-          
-
-          .poemita{
-            width: 400px;
-            font-size: 0.6rem;
-          }
-          .autor{
-            width: 270px;
-            font-size: 0.5rem;
-          }
-        }
+.textopoema{
     
-        @media (max-width: 600px) {
-          .textin{
-            width: 500px;
-          }
-        }
-
-        @media (max-width: 700px) {
-          .imgin{
-          display: none;
-          
-        }
-      }
-      
-      .elemento{
-        margin: 10px;
-        
-        
-      }
-
-      .bg-naranja{
-        background-color: #ffa834;
-      }
-      
-      
+    background-color: #aaaa;
     
-    footer{
-        background-color: #4c7a34;
+    
+  .poemita{
+      
+      font-family: 'Aboreto', system-ui;
+      font-size: 1.6rem;
+  }
 
-        h3{
-            font-size: 1.5rem;
-            color: #fff;
-        }
+  .autor{
+      width: 300px;
+      font-family: 'Aboreto', system-ui;
+      font-size: 1rem;
+  }
 
-        iframe{
-            display: inline-flex;
-            width: 30%;
-            height: 30%;
-            justify-content: end;
-            align-items: end;
-            flex-direction: row;
-        }
+  
+}
+.chiq{
+  font-size: 1rem;
+}
+.bg-naranja{
+  background-color: #ffa834;
+}
+.naranja{
+  color: #c68228;
+}
 
-        .iconosgrandes{
-            width: 40px;
-            width: 40px;
-            color: #ffffff;
-        }
-    }
+footer{
+    background-color: #4c7a34;
 
+  h3{
+      font-size: 1.5rem;
+      color: #fff;
+  }
+  }
     
 .img {
     width: 400px;
@@ -176,15 +101,12 @@ h1{
     padding: 20px;
     text-align: center;
 }
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
+
 
 .grid-container-galeria {
     display: grid;
     grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 400px 400px 400px 400px 400px 400px;
+    grid-template-rows: 400px 390px 400px 400px 390px 400px 400px;
     gap: 10px;
     justify-content: center;
     
@@ -197,61 +119,70 @@ img {
         "florcactus trepadora hongos"
         "pinchudo trepadora orquidea"
         "pinchudo tricolor espinosa"
-        "zebra tricolor espinosa";
+        "zebra tricolor espinosa"
+        "lavanda lavanda lavanda";
     
 }
-@media (max-width: 1000px) {
-    .grid-container-galeria {
-        grid-template-columns: 230px 230px 230px;
-        grid-template-rows: 230px 230px 230px 230px 230px 230px;
+
+.iconos{
+  text-decoration: none;
+  margin-right: 10px;
+  .fa-instagram, .fa-whatsapp, .fa-x-twitter, .fa-facebook{
+    font-size: 3rem;
+    color: #ffa834;
+  }
 }
-}
+
+
 @media (max-width: 500px) {
     .grid-container-galeria {
         grid-template-columns: 120px 120px 120px;
-        grid-template-rows: 120px 120px 120px 120px 120px 120px;
+        grid-template-rows: 120px 120px 120px 120px 120px 120px 120px;
 }
 }
 
-        .grid-item {
-            background-color: #ddd;
-            display: flex;
-    
-        }
-        
-          .croton{
-            grid-area: croton;
-          }
-          .girasol{
-            grid-area: girasol;
-          }
-          .suculentas{
-            grid-area: suculentas;
-          }
-          .florcactus{
-            grid-area: florcactus;
-          }
-          .trepadora{
-            grid-area: trepadora;
-          }
-          .hongos{
-            grid-area: hongos;
-          }
-          .orquidea{
-            grid-area: orquidea;
-          }
-          .pinchudo{
-            grid-area: pinchudo;
-          }
-          .espinosa{
-            grid-area: espinosa;
-          }
-          .tricolor{
-            grid-area: tricolor;
-          }
-          .zebra{
-            grid-area: zebra;
-          }
+.grid-item {
+    background-color: #ddd;
+    display: flex;
+
+}
+
+.croton{
+  grid-area: croton;
+}
+.girasol{
+  grid-area: girasol;
+}
+.suculentas{
+  grid-area: suculentas;
+}
+.florcactus{
+  grid-area: florcactus;
+}
+.trepadora{
+  grid-area: trepadora;
+}
+.hongos{
+  grid-area: hongos;
+}
+.orquidea{
+  grid-area: orquidea;
+}
+.pinchudo{
+  grid-area: pinchudo;
+}
+.espinosa{
+  grid-area: espinosa;
+}
+.tricolor{
+  grid-area: tricolor;
+}
+.zebra{
+  grid-area: zebra;
+}
+.lavanda{
+  grid-area: lavanda;
+}
     
 
 @media (max-width: 500px) {
@@ -259,12 +190,147 @@ img {
         width: 400px;
         height: 250px;
     }
+    
+}
+  
+/*Media queries vista mobile del index*/
+
+@media (max-width:1200px) {
+  .textoin{
+    font-size: 1.43rem;
+  }
 }
 
-
-  .imggran{
-    width: 350px;
-    height: auto;
-
-
+@media (max-width:992px) {
+  .textoin{
+    font-size: 1.5rem;
   }
+  .imgmedia{
+    width: 800px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  .texttarj{
+    font-size: 0.82rem;
+  }
+  .textopoema{
+    margin: auto;
+    width: 750px;
+    margin-bottom: 15px;
+    .poemita{
+        
+        font-size: 1.3rem;
+    }
+    .autor{
+      font-size: 1rem;
+    }
+}
+.imgin{
+  display: none;
+}
+}
+/*media queries para 768px*/
+@media (max-width:768px){
+  .textopoema{
+    width: 600px;
+    .poemita{
+        width: 600px;
+        font-size: 1.3rem;
+    }
+    .autor{
+      font-size: 0.7rem;
+    }
+}
+.espacio{
+  margin-bottom: 15px;
+}
+.imgmedia{
+  width: 700px;
+  height: 200px;
+  
+}
+.iconos{
+  .fa-instagram, .fa-whatsapp, .fa-x-twitter, .fa-facebook{
+    font-size: 2rem;
+    color: #ffa834;
+    margin-left: 10px;
+  }
+}
+}
+
+@media (max-width: 576px) {
+  .textopoema{
+    width: 400px;
+  .poemita{
+      width: 360px;
+      font-size: 1.1rem;
+  }
+  .autor{
+    font-size: 0.7rem;
+  }
+  }
+  .textin{
+    width: 400px;
+  }
+  .imgmedia{
+    width: 400px;
+    height: 200px;
+  }
+  }
+  
+  .mapa{
+    width: 600px;
+  }
+/*Media queries vista mobile de la galeria*/
+@media (max-width:1400px) {
+  .restextoin{
+    font-size: 1.2rem;
+  }
+    .video{
+      width: 460px;
+    }
+  }
+@media (max-width:1200px) {
+  .grid-container-galeria {
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 330px 320px 330px 330px 320px 330px 330px;
+}
+.video{
+  width: 360px;
+  height: 380px;
+}
+.restextoin{
+  font-size: 1rem;
+}
+}
+@media (max-width:992px) {
+  .grid-container-galeria {
+    grid-template-columns: 230px 230px 230px;
+    grid-template-rows: 230px 220px 230px 230px 220px 230px 230px;
+  }
+  .video{
+    width: 700px;
+    margin: auto;
+  }
+}
+@media (max-width:768px) {
+  .grid-container-galeria {
+    grid-template-columns: 170px 170px 170px;
+    grid-template-rows: 170px 160px 170px 170px 160px 170px 170px;
+  }
+  .video{
+    width: 500px;
+    margin: auto;
+  }
+}
+@media (max-width:576px) {
+  .grid-container-galeria {
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 110px 120px 120px 110px 120px 120px;
+  }
+  .video{
+    width: 360px;
+    height: 200px;
+  }
+}
