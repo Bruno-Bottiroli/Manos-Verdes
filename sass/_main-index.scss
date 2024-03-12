@@ -1,0 +1,109 @@
+.textopoema{
+    background-color: #aaaa;
+    
+  .poemita{
+      
+      font-family: $font-family-aboreto;
+      font-size: 1.6rem;
+  }
+
+  .autor{
+      width: 300px;
+      font-family: $font-family-aboreto;
+      font-size: 1rem;
+  }
+
+}
+.poem {
+    background-color: #808080;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+@media (max-width:1200px) {
+    .textoin{
+      font-size: 1.43rem;
+    }
+  }
+  
+  @media (max-width:992px) {
+    .textoin{
+      font-size: 1.5rem;
+    }
+    .imgmedia{
+      width: 800px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .texttarj{
+      font-size: 0.82rem;
+    }
+    .textopoema{
+      margin: auto;
+      width: 750px;
+      margin-bottom: 15px;
+      .poemita{
+          
+          font-size: 1.3rem;
+      }
+      .autor{
+        font-size: 1rem;
+      }
+  }
+  .imgin{
+    display: none;
+  }
+  }
+  /*media queries para 768px*/
+  @media (max-width:768px){
+    .textopoema{
+      width: 600px;
+      .poemita{
+          width: 600px;
+          font-size: 1.3rem;
+      }
+      .autor{
+        font-size: 0.7rem;
+      }
+  }
+  .espacio{
+    margin-bottom: 15px;
+  }
+  .imgmedia{
+    width: 700px;
+    height: 200px;
+    
+  }
+  .iconos{
+    .fa-instagram, .fa-whatsapp, .fa-x-twitter, .fa-facebook{
+      font-size: 2rem;
+      color: $colornaranja;
+      margin-left: 10px;
+    }
+  }
+  }
+  
+  @media (max-width: 576px) {
+    .textopoema{
+      width: 400px;
+    .poemita{
+        width: 360px;
+        font-size: 1.1rem;
+    }
+    .autor{
+      font-size: 0.7rem;
+    }
+    }
+    .textin{
+      width: 400px;
+    }
+    .imgmedia{
+      width: 400px;
+      height: 200px;
+    }
+    }
+    
+    .mapa{
+      width: 600px;
+    }

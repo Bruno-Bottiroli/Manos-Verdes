@@ -1,0 +1,21 @@
+footer{
+    background-color: $bg-verde;
+
+  h3{
+      font-size: 1.5rem;
+      color: #fff;
+  }
+  }
+    
+.img {
+    width: 400px;
+    height: 400px;
+}
+.iconos{
+    text-decoration: none;
+    margin-right: 10px;
+    .fa-instagram, .fa-whatsapp, .fa-x-twitter, .fa-facebook{
+      font-size: 3rem;
+      color: $colornaranja;
+    }
+  }

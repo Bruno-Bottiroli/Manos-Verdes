@@ -1,0 +1,120 @@
+.titulogaleria{
+    font-family: $font-family-mayus;
+    color: $colorverde;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.grid-container-galeria {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 390px 400px 400px 390px 400px 400px;
+    gap: 10px;
+    justify-content: center;
+    
+    object-fit: contain;
+    max-width: auto;
+    max-height: auto;
+    grid-template-areas: 
+        "croton girasol suculentas"
+        "croton girasol hongos"
+        "florcactus trepadora hongos"
+        "pinchudo trepadora orquidea"
+        "pinchudo tricolor espinosa"
+        "zebra tricolor espinosa"
+        "lavanda lavanda lavanda";
+    
+}
+.grid-item {
+    background-color: #ddd;
+    display: flex;
+
+}
+
+.croton{
+  grid-area: croton;
+}
+.girasol{
+  grid-area: girasol;
+}
+.suculentas{
+  grid-area: suculentas;
+}
+.florcactus{
+  grid-area: florcactus;
+}
+.trepadora{
+  grid-area: trepadora;
+}
+.hongos{
+  grid-area: hongos;
+}
+.orquidea{
+  grid-area: orquidea;
+}
+.pinchudo{
+  grid-area: pinchudo;
+}
+.espinosa{
+  grid-area: espinosa;
+}
+.tricolor{
+  grid-area: tricolor;
+}
+.zebra{
+  grid-area: zebra;
+}
+.lavanda{
+  grid-area: lavanda;
+}
+
+@media (max-width:1400px) {
+    .restextoin{
+      font-size: 1.2rem;
+    }
+      .video{
+        width: 460px;
+      }
+    }
+  @media (max-width:1200px) {
+    .grid-container-galeria {
+      grid-template-columns: 330px 330px 330px;
+      grid-template-rows: 330px 320px 330px 330px 320px 330px 330px;
+  }
+  .video{
+    width: 360px;
+    height: 380px;
+  }
+  .restextoin{
+    font-size: 1rem;
+  }
+  }
+  @media (max-width:992px) {
+    .grid-container-galeria {
+      grid-template-columns: 230px 230px 230px;
+      grid-template-rows: 230px 220px 230px 230px 220px 230px 230px;
+    }
+    .video{
+      width: 700px;
+      margin: auto;
+    }
+  }
+  @media (max-width:768px) {
+    .grid-container-galeria {
+      grid-template-columns: 170px 170px 170px;
+      grid-template-rows: 170px 160px 170px 170px 160px 170px 170px;
+    }
+    .video{
+      width: 500px;
+      margin: auto;
+    }
+  }
+  @media (max-width:576px) {
+    .grid-container-galeria {
+      grid-template-columns: 120px 120px 120px;
+      grid-template-rows: 120px 110px 120px 120px 110px 120px 120px;
+    }
+    .video{
+      width: 360px;
+      height: 200px;
+    }
+  }

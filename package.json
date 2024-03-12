@@ -1,0 +1,14 @@
+{
+  "name": "manos_verdes",
+  "version": "1.0.0",
+  "description": "proyecto manos verdes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "brunobottiroli",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.71.1"
+  }
+}
