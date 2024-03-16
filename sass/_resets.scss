@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
 }
-/*Breve aclaracion!!! de seguro hay varias clases que sean redundantes, pero hice mi mejor esfuerzo por ahora, avance mucho en el proyecto estando de vacaciones en el mar :(  Para la tercer preEntrega voy a arreglar a profundidad el tema clases, de todas formas esta mas prolijo que la anterior entrega*/
+
 header{
         background-color: $bg-verde;
 }
 h1{
     font-family: $font-family-mayus;
 }
+img{
+    max-width: 100%;
+  } 

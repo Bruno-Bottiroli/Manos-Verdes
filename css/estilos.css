@@ -1,10 +1,10 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Amaranth&family=Jost:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
-/*Breve aclaracion!!! de seguro hay varias clases que sean redundantes, pero hice mi mejor esfuerzo por ahora, avance mucho en el proyecto estando de vacaciones en el mar :(  Para la tercer preEntrega voy a arreglar a profundidad el tema clases, de todas formas esta mas prolijo que la anterior entrega*/
 header {
   background-color: #4c7a34;
 }
@@ -13,41 +13,10 @@ h1 {
   font-family: "Amaranth", sans-serif;
 }
 
-.verde {
-  background-color: #4c7a34;
-}
-
 img {
   max-width: 100%;
 }
 
-.texttarj {
-  font-family: "Jost", sans-serif;
-}
-
-.titins {
-  font-family: "Amaranth", sans-serif;
-  color: #4c7a34;
-}
-
-.amaranth {
-  font-family: "Amaranth", sans-serif;
-}
-
-.bg-gris {
-  background-color: rgba(227, 225, 225, 0.6666666667);
-}
-
-.textoin {
-  font-family: "Jost", sans-serif;
-}
-
-.Jost {
-  font-family: "Jost", sans-serif;
-  font-size: 1.05rem;
-}
-
-/*juro que apenas pueda arreglo el temita de los Jost jajaja*/
 .textopoema {
   background-color: rgba(170, 170, 170, 0.6666666667);
 }
@@ -61,38 +30,6 @@ img {
   font-size: 1rem;
 }
 
-.chiq {
-  font-size: 1rem;
-}
-
-.bg-naranja {
-  background-color: #ffa834;
-}
-
-.naranja {
-  color: #ffa834;
-}
-
-footer {
-  background-color: #4c7a34;
-}
-footer h3 {
-  font-size: 1.5rem;
-  color: #fff;
-}
-
-.img {
-  width: 400px;
-  height: 400px;
-}
-
-.titulogaleria {
-  font-family: "Amaranth", sans-serif;
-  color: #4c7a34;
-  font-size: 2.8rem;
-  text-align: center;
-}
-
 .poem {
   background-color: #808080;
   border-radius: 15px;
@@ -100,93 +37,6 @@ footer h3 {
   text-align: center;
 }
 
-.grid-container-galeria {
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 400px 390px 400px 400px 390px 400px 400px;
-  gap: 10px;
-  justify-content: center;
-  object-fit: contain;
-  max-width: auto;
-  max-height: auto;
-  grid-template-areas: "croton girasol suculentas" "croton girasol hongos" "florcactus trepadora hongos" "pinchudo trepadora orquidea" "pinchudo tricolor espinosa" "zebra tricolor espinosa" "lavanda lavanda lavanda";
-}
-
-.iconos {
-  text-decoration: none;
-  margin-right: 10px;
-}
-.iconos .fa-instagram, .iconos .fa-whatsapp, .iconos .fa-x-twitter, .iconos .fa-facebook {
-  font-size: 3rem;
-  color: #ffa834;
-}
-
-@media (max-width: 500px) {
-  .grid-container-galeria {
-    grid-template-columns: 120px 120px 120px;
-    grid-template-rows: 120px 120px 120px 120px 120px 120px 120px;
-  }
-}
-.grid-item {
-  background-color: #ddd;
-  display: flex;
-}
-
-.croton {
-  grid-area: croton;
-}
-
-.girasol {
-  grid-area: girasol;
-}
-
-.suculentas {
-  grid-area: suculentas;
-}
-
-.florcactus {
-  grid-area: florcactus;
-}
-
-.trepadora {
-  grid-area: trepadora;
-}
-
-.hongos {
-  grid-area: hongos;
-}
-
-.orquidea {
-  grid-area: orquidea;
-}
-
-.pinchudo {
-  grid-area: pinchudo;
-}
-
-.espinosa {
-  grid-area: espinosa;
-}
-
-.tricolor {
-  grid-area: tricolor;
-}
-
-.zebra {
-  grid-area: zebra;
-}
-
-.lavanda {
-  grid-area: lavanda;
-}
-
-@media (max-width: 500px) {
-  .video {
-    width: 400px;
-    height: 250px;
-  }
-}
-/*Media queries vista mobile del index*/
 @media (max-width: 1200px) {
   .textoin {
     font-size: 1.43rem;
@@ -268,57 +118,138 @@ footer h3 {
   width: 600px;
 }
 
-/*Media queries vista mobile de la galeria*/
 @media (max-width: 1400px) {
-  .restextoin {
-    font-size: 1.2rem;
-  }
   .video {
     width: 460px;
   }
 }
 @media (max-width: 1200px) {
-  .grid-container-galeria {
-    grid-template-columns: 330px 330px 330px;
-    grid-template-rows: 330px 320px 330px 330px 320px 330px 330px;
-  }
   .video {
     width: 360px;
     height: 380px;
   }
-  .restextoin {
-    font-size: 1rem;
-  }
 }
 @media (max-width: 992px) {
-  .grid-container-galeria {
-    grid-template-columns: 230px 230px 230px;
-    grid-template-rows: 230px 220px 230px 230px 220px 230px 230px;
-  }
   .video {
     width: 700px;
     margin: auto;
   }
 }
 @media (max-width: 768px) {
-  .grid-container-galeria {
-    grid-template-columns: 170px 170px 170px;
-    grid-template-rows: 170px 160px 170px 170px 160px 170px 170px;
-  }
   .video {
     width: 500px;
     margin: auto;
   }
 }
-@media (max-width: 576px) {
-  .grid-container-galeria {
-    grid-template-columns: 120px 120px 120px;
-    grid-template-rows: 120px 110px 120px 120px 110px 120px 120px;
-  }
-  .video {
-    width: 360px;
-    height: 200px;
-  }
+.video {
+  width: 360px;
+  height: 200px;
+}
+
+footer {
+  background-color: #4c7a34;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+}
+
+.iconos {
+  text-decoration: none;
+  margin-right: 10px;
+}
+.iconos .fa-instagram, .iconos .fa-whatsapp, .iconos .fa-x-twitter, .iconos .fa-facebook {
+  font-size: 3rem;
+  color: white;
+}
+
+/*FUENTES*/
+.titins {
+  font-family: "Amaranth", sans-serif;
+  color: #4c7a34;
+}
+
+.Jost {
+  font-family: "Jost", sans-serif;
+  font-size: 1.05rem;
+}
+
+.amaranth {
+  font-family: "Amaranth", sans-serif;
+}
+
+/*Backgrounds*/
+.verde {
+  background-color: #4c7a34;
+}
+
+.bg-naranja {
+  background-color: #ffa834;
+}
+
+.bg-gris {
+  background-color: rgba(92, 92, 92, 0.6745098039);
+}
+
+.bg-grisclaro {
+  background-color: rgba(174, 174, 174, 0.242);
+}
+
+.bg-gradientenaranja {
+  background-image: rgb(2, 0, 36);
+  background-image: linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(115, 80, 30) 0%, rgb(255, 211, 0) 100%);
+}
+
+.bg-planta {
+  background-image: url("../assets/img/bg-plantaaa.png"); /* URL de tu imagen */
+  background-repeat: repeat; /* Repetir la imagen en ambas direcciones */
+  background-color: rgba(255, 255, 255, 0.141); /* Color de fondo con transparencia */
+  background-size: 10%; /* Hace que la imagen de fondo sea el 50% del tamaño original */
+}
+
+/*Colores fuentes*/
+.colorverde {
+  color: #4c7a34;
+}
+
+.naranja {
+  color: #ffa834;
+}
+
+.promootono {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+  align-items: center;
+}
+.promootono h2 {
+  font-size: 2rem;
+  color: #4c7a34;
+  font-family: "Amaranth", sans-serif;
+}
+.promootono p {
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif;
+}
+
+/*JURO QUE CASI ME LARGO A LLORAR INTENTANDO HACER ESTE MAXIN*/
+form input:focus,
+form select:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #4c7a34;
+  box-shadow: 0 0 7px #4c7a34;
+}
+
+.hovercard {
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+.hovercard:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -9,6 +9,8 @@
   "author": "brunobottiroli",
   "license": "ISC",
   "dependencies": {
+    "aos": "^2.3.4",
+    "hover.css": "^2.3.2",
     "sass": "^1.71.1"
   }
 }

@@ -8,18 +8,15 @@
 @import 'footer';
 @import 'fuentesycolores';
 @import 'mixins';
-
+@import 'maincontacto';
 
  
-img{
-  max-width: 100%;
-} 
 
-.bg-gradientenaranja{
-  background-image: rgb(2,0,36);
-  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,121,9,1) 0%, rgba(255,211,0,1) 100%);
-}
-.trans{
-  position: absolute;
-  transform: translate(200px);
+
+.hovercard{
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  &:hover{
+    transform: scale(1.1);
+  }
 }
