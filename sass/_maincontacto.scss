@@ -6,3 +6,9 @@ form textarea:focus {
   border-color: $bg-verde; 
   box-shadow: 0 0 7px $bg-verde; 
 }
+
+.promootono{
+  @include promo;
+
+  align-items: center;
+}

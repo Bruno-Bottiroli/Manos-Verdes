@@ -1,5 +1,3 @@
-@import 'variables';
-@import 'mapas';
 
 @mixin promo ($config: ()) {
     $config: map-merge($config-promo, $config);
@@ -24,10 +22,3 @@
     }
 }
 
-.promootono{
-    @include promo;
-
-    align-items: center;
-}
-
-/*JURO QUE CASI ME LARGO A LLORAR INTENTANDO HACER ESTE MAXIN*/
