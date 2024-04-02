@@ -15,7 +15,13 @@
 
 }
 
-
+.hovercard{
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
 
 .poem {
     background-color: #808080;
